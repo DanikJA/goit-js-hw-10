@@ -28,10 +28,6 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 
-import { fetchCatByBreed } from './cat-api';
-
-
-
 breedSl.addEventListener('change', event => {
   const breedId = event.target.value;
 
@@ -62,32 +58,3 @@ breedSl.addEventListener('change', event => {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// breedSl.innerHTML =
-//  ` <option value="breed1">Breed 1</option>
-//   <option value="breed2">Breed 2</option>
-// `;
-
-// catInfo.innerHTML = `
-//   <img src="cat-image-url.jpg" alt="Cute Cat">
-//   <h2>Cat Name</h2>
-//   <p>Description of the cat</p>
-//   <p>Temperament: Playful, Friendly</p>
-// `;
