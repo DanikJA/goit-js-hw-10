@@ -42,7 +42,7 @@ breedSl.addEventListener('change', event => {
       const { url, breeds } = cat;
       const { name, description, temperament } = breeds[0];
       catInfo.innerHTML = `
-        <img src="${url}" alt="${name}" width="400">
+        <img src="${url}" alt="${name}" width="400" hights ="400">
         <h2>${name}</h2>
         <p>${description}</p>
         <p><strong>Temperament:</strong> ${temperament}</p>
